@@ -1,0 +1,22 @@
+name: CiemaydoBrowser
+options:
+  bundleIdPrefix: com.iyorshka
+  deploymentTarget:
+    iOS: "12.0"
+settings:
+  SWIFT_VERSION: "5.0"
+targets:
+  CiemaydoBrowser:
+    type: application
+    platform: iOS
+    sources:
+      - CiemaydoBrowser
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.iyorshka.ciemaydobrowser
+      INFOPLIST_FILE: CiemaydoBrowser/Info.plist
+      DEVELOPMENT_TEAM: ""
+      CODE_SIGN_STYLE: Manual
+      CODE_SIGNING_REQUIRED: NO
+      CODE_SIGNING_ALLOWED: NO
+      TARGETED_DEVICE_FAMILY: "1"
+      IPHONEOS_DEPLOYMENT_TARGET: "12.0"
